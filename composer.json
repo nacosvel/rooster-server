@@ -1,6 +1,9 @@
 {
     "name": "nacosvel/rooster-server",
     "description": "Nacosvel Rooster Server.",
+    "keywords": [
+        "Nacosvel Rooster Server"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -12,6 +15,7 @@
     "require": {
         "php": ">=8.0",
         "nacosvel/container-interop": "^1.0",
+        "nacosvel/database-manager": "^1.0",
         "nacosvel/facde": "^1.0"
     },
     "autoload": {
