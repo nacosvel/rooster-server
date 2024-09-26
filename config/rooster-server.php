@@ -56,9 +56,9 @@ return [
     ],
 
     'schema' => [
-        \Nacosvel\RoosterServer\Models\Transaction::class => 'transaction_session',
-        \Nacosvel\RoosterServer\Models\Branch::class      => 'branch_session',
-        \Nacosvel\RoosterServer\Models\Undo::class        => 'undo_session',
+        \Nacosvel\RoosterServer\Contracts\TransactionInterface::class => 'transaction_session',
+        \Nacosvel\RoosterServer\Contracts\BranchInterface::class      => 'branch_session',
+        \Nacosvel\RoosterServer\Contracts\UndoInterface::class        => 'undo_session',
     ],
 
 ];
