@@ -2,7 +2,7 @@
 
 namespace Nacosvel\RoosterServer\Contracts;
 
-interface TransactionManagerInterface
+interface TransactionCoordinatorInterface
 {
 
 }
