@@ -18,7 +18,8 @@
         "nacosvel/console": "^1.0",
         "nacosvel/container-interop": "^1.0",
         "nacosvel/database-manager": "^1.0",
-        "nacosvel/facde": "^1.0"
+        "nacosvel/facde": "^1.0",
+        "nacosvel/rooster-server-implementation": "^1.0"
     },
     "autoload": {
         "psr-4": {
