@@ -16,14 +16,6 @@ use function Nacosvel\Container\Interop\application;
  */
 class TC extends Facade
 {
-    const ACTION_START            = 1;
-    const ACTION_END              = 2;
-    const ACTION_PREPARE          = 4;
-    const ACTION_PREPARE_COMMIT   = 8;
-    const ACTION_PREPARE_ROLLBACK = 16;
-    const ACTION_COMMIT           = 32;
-    const ACTION_ROLLBACK         = 64;
-
     /**
      * Get the registered name of the component.
      *
